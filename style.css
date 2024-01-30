@@ -1,0 +1,124 @@
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+    font-size: 15px;
+}
+.highlight{
+    color: coral;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-family: 700;
+}
+.fa-solid fa-download{
+    padding-right: 5px;
+    padding-left: 10PX;
+}
+.button>i{
+    padding-right: 10px;
+}
+
+.Middle h2{
+    text-align: center;
+}
+.full-width{
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+}
+.full-width img{
+    width: 100%
+}
+.single-experience{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 5px;
+    background-color: white;
+}
+.last img{
+    width: 65%;
+    padding-left: 15%;
+    padding-top: 4%;
+    position: absolute;
+}
+.text{
+    position: relative;
+    width: 50%;
+    top: 10px;
+    left: 10px;
+    padding-left: 20%;
+    padding-top: 7%;
+    color: white;
+    font-size: 70PX;
+}
+.text-2{
+    position: absolute;
+    width: 20%;
+    top: 80px;
+    right: -5px;
+    color: white;
+    font-size: 20PX;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-family: 700;
+}
+.for-icons{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+}
+nav{
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    margin-bottom: 3%;
+}
+nav ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+
+}
+nav li{
+    display: inline-flex;
+    margin-right: 20px;
+    color: white;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav li a:hover{
+    background-color: blue;
+}
+.top-banner>nav{
+    margin-top: 2%;
+}
